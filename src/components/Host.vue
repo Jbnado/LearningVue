@@ -17,7 +17,7 @@
         <div>
           <!-- TODO: Add booking-form -->
           <booking-form
-            @booking-created="addBooking"
+            @bookingCreated="addBooking"
             :cabins="cruise.cabins"
           ></booking-form>
         </div>

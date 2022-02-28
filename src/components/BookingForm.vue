@@ -25,7 +25,6 @@ export default {
   props: {
     cabins: Array,
   },
-  emits: ["bookingCreated"],
   data() {
     return {
       cabinIndex: -1,
